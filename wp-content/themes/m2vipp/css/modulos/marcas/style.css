@@ -1,0 +1,87 @@
+
+.showbiz-container				{	max-width: inherit; min-width: inherit; overflow:hidden;
+									padding:0px 20px;margin:0px auto 0px;
+									box-sizing:border-box;
+									-moz-box-sizing:border-box;
+									-webkit-box-sizing:border-box;
+								}
+
+.showbiz-container.darkbg		{	padding:20px;
+									background:#d5d5d5;
+									max-width:1170px;
+								}
+
+.showbiz-container.whitebg		{	padding:20px; padding-top:0px;
+									background:#fff;
+									max-width:1170px;
+									-webkit-box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+									-moz-box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+									box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+									overflow:visible
+								}
+
+
+.showbiz-container.retrodarkbg	{	padding:20px;padding-top:0px;
+									background:#222;
+									border:1px solid #1e1e1e;
+									max-width:1170px;
+									overflow:visible
+								}
+
+.showbiz-container.fullwidth			{	max-width:100%;}
+.showbiz-container.fullwidth.nopaddings	{	padding:0px;}
+.sameheight								{	height:400px;}
+
+
+
+/* Gabriel */
+.showbiz-container.bdm	{	padding:0 35px; border:0px solid #d7d7d7; width:100%; overflow:visible; border-radius:0px; box-shadow:none; z-index:10; position: relative;}
+
+.showbiz-container.bdm .showbiz-navigation { width:100%; position: absolute; top:0px; left:0px; height:100%;}
+.showbiz-container.bdm	.sb-nav-light .sb-navigation-left,
+.showbiz-container.bdm	.sb-nav-light .sb-navigation-right   { border:none; border-radius:0px; position:absolute; top:50%; margin-top:-44px;  padding:0px; z-index:10; width:33px; height:84px;}
+
+.showbiz-container.bdm	.sb-nav-light .sb-navigation-left:hover {background-position:100% 0%;}
+.showbiz-container.bdm	.sb-nav-light .sb-navigation-right:hover {background-position:100% 0%;}
+
+.showbiz-container.bdm .sb-navigation-left {  left:-5px; background:transparent url(botao-m1.png) 0% 0% no-repeat; }
+.showbiz-container.bdm .sb-navigation-left:hover {background-position:100% 0%;}
+.showbiz-container.bdm .sb-navigation-right { right:-5px; background:transparent url(botao-m2.png) 0% 0% no-repeat;}
+.showbiz-container.bdm .sb-navigation-right:hover {background-position:100% 0%;}
+
+
+
+
+.showbiz-container.bdm .sb-nav-light.showbiz-navigation i {  color:#ffffff;}
+
+.showbiz-container.bdm [class^="sb-icon-"]:before,
+.showbiz-container.bdm [class*="sb-icon-"]:before {	
+	  width: 20px;
+	  line-height: 40px;
+	}
+
+
+
+
+
+.showbiz .mediaholder{ text-align:center;  border:none; padding:0px 0px;}
+.showbiz .mediaholder_innerwrap {}
+.showbiz .mediaholder img {	width: 100%;  position:relative; margin-bottom:-1px;}
+
+
+.showbiz ul li { margin-right:10px;}
+
+.showbiz ul li .detailholder { background:#072e52; color:#ffffff; padding:15px; border-top:1px solid #ffffff; border-bottom:1px solid #ffffff;}
+.showbiz ul li .detailholder h3 { font-family:'Source Sans Pro'; text-transform:uppercase; font-size:20px; line-height:22px; font-weight:600; color:#ffffff;}
+.showbiz ul li .detailholder h3 a { color:#ffffff; text-decoration:none;}
+.showbiz ul li .detailholder h3 a:hover,
+.showbiz ul li .detailholder h3 a:focus { color:#ffffff; text-decoration:underline;} 
+
+.showbiz ul li .detailholder .pos-atleta { color:#ffffff; padding-left:20px; margin-left:-2px; margin-bottom:0px; background:transparent url(star.png) 0px 2px no-repeat; font-size:16px; line-height:20px; font-family:'Source Sans Pro'; }
+
+.showbiz ul li .img-atleta:hover { opacity:0.9;}
+.showbiz ul li img { border-bottom-left-radius:0px !important; border-bottom-right-radius:0px !important;}
+
+.showbiz ul li .esc-atleta { background:#56b601; color:#001701; font-family:'Source Sans Pro'; font-size:14px; border-bottom-left-radius:6px; border-bottom-right-radius:6px; padding:3px 15px;}
+
+.sb-navigation-left, .sb-navigation-right, .sb-navigation-play {transition:none !important;}

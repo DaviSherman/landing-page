@@ -1,0 +1,96 @@
+/* menu-top */
+.menu-top { background:none; border-top:1px solid #ffffff;}
+.menu-top .navbar-default { min-height:42px; margin-bottom:0px; border:none; border-radius:0px; background:#1f2754;}
+
+
+.menu-top .navbar-default .navbar-nav > li > a { color:#ffffff; cursor:pointer; font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif; font-size:17px; font-weight:500; padding-top:13px; padding-bottom:13px;}
+
+.menu-top .navbar-default .navbar-nav > li > a:hover, 
+.menu-top .navbar-default .navbar-nav > li > a:focus { background-color:#5f5f5f; background:rgba(0,0,0,0.2); color:#ffffff;}
+
+.menu-top .navbar-default .navbar-nav > li > a .caret { display:none;}
+
+.menu-top .navbar-collapse { padding-left:0px; padding-right:0px;}
+
+.menu-top .dropdown-menu {  background:#ffffff; border-top:none; border-left:none; border-right:none; box-shadow:0px 0px 5px rgba(0,0,0,0.2);}
+
+
+.menu-top .dropdown-menu {background:#ffffff; padding:0px 5px 5px; border-bottom-left-radius:10px; border-bottom-right-radius:10px;}
+
+.menu-top .dropdown-menu .ulsub { padding:5px 0px 10px; border-color:#ffffff; border-width:0px 1px 1px 1px; border-style:solid; border-bottom-left-radius:10px; border-bottom-right-radius:10px;}
+.menu-top .dropdown-menu .ulsub li { list-style:none;}
+.menu-top .dropdown-menu .ulsub li a { font-family:'Source Sans Pro'; font-size:14px; clear: both; color: #ffffff; display: block; font-weight: normal; line-height: 1.42857; padding: 4px 12px 4px 14px; white-space: nowrap; background:transparent url(assets/bullet-seta.png)  6px center no-repeat;}
+.menu-top .dropdown-menu .ulsub li a:hover { color: #d5d5d5; text-decoration:none;}
+
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {color:#ffffff; background:none;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus { color:#ffffff; background:none;}
+
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {color:#ffffff !important; background:#eb4823; cursor:pointer;}
+
+.menu-top .navbar-default .navbar-toggle:hover, 
+.menu-top .navbar-default .navbar-toggle:focus {background:#939598;}
+
+.menu-top .navbar-default .navbar-toggle .icon-bar {background:#ffffff;}
+.menu-top .navbar-brand { color:#ffffff !important;}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* Responsive ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+------------------------------------------------------------------------------------------------- */
+@media (max-width:320px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 767px) {
+
+	
+.menu-top .dropdown-menu .ulsub { border:none;}
+
+.menu-top .navbar-default .navbar-nav > li > a, .menu-top .navbar-default .navbar-nav > li:first-child > a {padding-left:10px; padding-top:10px; padding-bottom:11px; font-size:16px; color:#ffffff;}
+
+
+.menu-top .navbar-default .navbar-nav > li > a:hover, 
+.menu-top .navbar-default .navbar-nav > li > a:focus { background:rgba(0,0,0,0.2); color:#d5d5d5;}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a { color:#ffffff;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus { color:#d5d5d5;}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.menu-top .navbar-default .navbar-nav > li > a { font-size:14px;}
+
+
+}
+
+@media (max-width: 991px) {
+.menu-top .dropdown-menu li { display:block; float: none;}
+.menu-top .dropdown-menu .ulsub li a { color: #ffffff; }
+.menu-top .dropdown-menu .ulsub li a:hover { color: #d5d5d5; text-decoration:none; }
+.menu-top .navbar-collapse { padding-left:15px; padding-right:15px;}
+
+}
+
+@media (min-width: 768px) {
+.menu-top .navbar-collapse { padding-left:15px; padding-right:15px; margin-bottom: 21px;}
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
